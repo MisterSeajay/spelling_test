@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-import argparse, pathlib, random, sys
+import argparse, os, pathlib, random, sys
 import json, jsonpath
 import pygame
 from gtts import gTTS
@@ -10,9 +10,10 @@ DIC_PATH = pathlib.Path.cwd().joinpath('dictionary.json').absolute().as_posix()
 def main(level=6, tests=10):
     create_path(MP3_PATH)
 
-    attempts = 0
     count = 0
     words = get_random_words(level, tests, DIC_PATH)
+
+    os.system('clear')
 
     for word in words:
         count = count + 1
@@ -22,19 +23,20 @@ def main(level=6, tests=10):
         pygame.mixer.init()
         pygame.mixer.music.load(mp3_file)
 
+        attempts = 0
         attempt = ''
         while attempt != word:
             attempts = attempts + 1
-            print('%02d: Please spell the word:' % count)
             pygame.mixer.music.play()
-            attempt = input('')
+            attempt = input('Word %02d, attempt %02d: ' % (count, attempts))
 
-    print('It took you %d attempts to get those right!' % attempts)
+    print('Well done, you\'ve completed the test!')
 
 
-def create_path(path)
+def create_path(path):
     if not path.exists():
-        
+        path.mkdir(parents=True, exist_ok=True)
+
 
 def get_random_words(level, tests, path):
     with open(path) as json_file:
@@ -58,7 +60,7 @@ def get_mp3(word, mp3_path):
     mp3_file = mp3_path.joinpath('%s.mp3' % word)
     if not mp3_file.exists():
         phrase = ('Please spell the word: %s' % word)
-        tts = gTTS(phrase, lang='en')
+        tts = gTTS(phrase, lang='en-gb')
         tts.save(mp3_file.absolute().as_posix())
     return mp3_file.absolute().as_posix()
 
@@ -73,9 +75,13 @@ if __name__ == "__main__":
     # Set default values for arguments
     if not args.level:
         args.level = 6
+    else:
+        args.level = int(args.level)
     
     if not args.tests:
         args.tests = 10
+    else:
+        args.tests = int(args.tests)
 
     # Run the test
     main(level=args.level, tests=args.tests)
