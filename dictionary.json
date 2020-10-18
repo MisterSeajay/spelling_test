@@ -38,6 +38,14 @@
                 "isosceles",
                 "radius"
             ]
+        },
+        {
+            "name": "year4",
+            "level": 4,
+            "words": [
+                "blow", "blew", "sing", "sang", "fight", "fought", "teach", "taught", "other", "another", "mother",
+                "before", "more", "or", "different", "difficult"
+            ]
         }
     ]
 }
