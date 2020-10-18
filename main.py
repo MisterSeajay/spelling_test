@@ -7,11 +7,11 @@ from gtts import gTTS
 MP3_PATH = pathlib.Path.cwd().joinpath('mp3_cache')
 DIC_PATH = pathlib.Path.cwd().joinpath('dictionary.json').absolute().as_posix()
 
-def main(level=6, tests=10):
+def main(list_level=6, list_name="*", tests=10):
     create_path(MP3_PATH)
 
     count = 0
-    words = get_random_words(level, tests, DIC_PATH)
+    words = get_random_words(list_level, list_name, tests, DIC_PATH)
 
     os.system('clear')
 
@@ -38,13 +38,23 @@ def create_path(path):
         path.mkdir(parents=True, exist_ok=True)
 
 
-def get_random_words(level, tests, path):
+def get_random_words(list_level, list_name, tests, path):
     with open(path) as json_file:
         json_data = json.load(json_file)
         json_file.close()
     
-    # Find all word lists of the appropriate level
-    words = jsonpath.jsonpath(json_data, ('$.dictionary[?(@.level==%d || @.level==%d)].words' % (level, level-1)))
+    # Find all word lists of the appropriate list_level
+    # jsonpath_filter = '$.dictionary[?(@.name =~ /^%s$/i && (@.level==%d || @.level==%d))].words' % (list_name, list_level, list_level-1)
+    if list_name == "*":
+        jsonpath_filter = '$.dictionary[?(@.level==%d || @.level==%d)].words' % (list_level, list_level-1)
+    else:
+        jsonpath_filter = '$.dictionary[?(@.name == "%s")].words' % (list_name)
+    
+    words = jsonpath.jsonpath(json_data, jsonpath_filter)
+
+    if not words:
+        print(jsonpath_filter)
+        raise ValueError("No words returned")
 
     # flatten these dictionaries into one word list
     word_list = []
@@ -68,7 +78,8 @@ def get_mp3(word, mp3_path):
 if __name__ == "__main__":
     # Read command line arguments
     parser=argparse.ArgumentParser()
-    parser.add_argument('--level', help='What (school year) level to test at? (Default 6)')
+    parser.add_argument('--level', help='What (school year) list_level to test at? (Default 6)')
+    parser.add_argument('--name', help='What list of words do you want to use')
     parser.add_argument('--tests', help='How may spellings to test? (Default 10)')
     args=parser.parse_args()
 
@@ -78,10 +89,13 @@ if __name__ == "__main__":
     else:
         args.level = int(args.level)
     
+    if not args.name:
+        args.name = "*"
+        
     if not args.tests:
         args.tests = 10
     else:
         args.tests = int(args.tests)
 
     # Run the test
-    main(level=args.level, tests=args.tests)
+    main(list_level=args.level, list_name=args.name, tests=args.tests)

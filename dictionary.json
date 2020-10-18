@@ -30,6 +30,41 @@
             ]
         },
         {
+            "name": "shakespeare1",
+            "level": 8,
+            "words": [
+                "mutiny", "acient", "rivalry", "reconciliation", "defiance", "quarrelsome", "grievance", "boisterous", "benevolent", "pernicious"
+            ]
+        },
+        {
+            "name": "shakespeare2",
+            "level": 8,
+            "words": [
+                "banishment", "mercurial", "sceptical", "protagonist", "appertain", "languish", "apothecary", "conduit", "antagonist", "soliloquy"
+            ]
+        },
+        {
+            "name": "shakespeare3",
+            "level": 8,
+            "words": [
+                "contemptuous", "gallant", "impetuous", "fiery", "pugnacious", "disobedience", "domineering", "patriarch", "gregarious", "impulsive"
+            ]
+        },
+        {
+            "name": "shakespeare4",
+            "level": 8,
+            "words": [
+                "heretic", "incredulous", "cataclysm", "catalyst", "meternal", "impassioned", "manipulative", "dismissive", "vindictive", "weaponised"
+            ]
+        },
+        {
+            "name": "shakespeare5",
+            "level": 8,
+            "words": [
+                "pivotal", "hostility", "vengeful", "sacrifice", "accord", "harmony", "poignant", "sentimental", "tempestuous", "ritual"
+            ]
+        },
+        {
             "name": "maths",
             "level": 6,
             "words": [
