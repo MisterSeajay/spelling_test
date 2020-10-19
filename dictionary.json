@@ -1,6 +1,53 @@
 {
     "dictionary": [
         {
+            "name": "exceptions",
+            "level": 1,
+            "words": [
+                "the", "a", "do", "to", "today", "of", "said", "says", "are", "were", "was", "is", "his", "has", "I", "you",
+                "your", "they", "be", "he", "me", "she", "we", "no", "go", "so", "by", "my", "here", "there", "were", "love",
+                "come", "some", "one", "once", "ask", "friend", "school", "put", "push", "pull", "full", "house", "our"
+            ]
+        },
+        {
+            "name": "exceptions",
+            "level": 2,
+            "words": [
+                "door", "floor", "poor", "because", "find", "kind", "mind", "behind", "child", "children", "wild", "climb",
+                "most", "only", "both", "old", "cold", "gold", "hold", "told", "every", "great", "break", "steak", "pretty",
+                "beautiful", "after", "fast", "last", "pass", "father", "class", "grass", "pass", "plant", "path", "bath",
+                "hour", "move", "prove", "improve", "sure", "sugar", "eye", "could", "should", "would", "who", "whole", "any",
+                "many", "clothes", "busy", "people", "water", "again", "half", "money", "Mr.", "Mrs.", "parents",
+                "Christmas", "everybody", "even"
+            ]
+        },
+        {
+            "name": "year4",
+            "level": 4,
+            "words": [
+                "blow", "blew", "sing", "sang", "fight", "fought", "teach", "taught", "other", "another", "mother",
+                "before", "more", "or", "different", "difficult"
+            ]
+        },
+        {
+            "name": "exceptions",
+            "level": 4,
+            "words": [
+                "accident","consider","group","accidentally","continue","guard","actual","decide","guide",
+                "actually","describe","heard","address","different","heart","although","difficult","height",
+                "answer","disappear","history","appear","early","imagine","arrive","earth","increase",
+                "believe","eight","important","bicycle","eighth","interest","breath","enough","island",
+                "build","exercise","knowledge","busy","experience","learn","business","extreme","length",
+                "calendar","famous","library","caught","favourite","material","centre","February","medicine",
+                "century","forward","mention","certain","forwards","minute","circle","fruit","natural",
+                "complete","grammar","naughty","notice","regular","occasion","reign","occasionally","remember",
+                "often","sentence","opposite","separate","ordinary","special","particular","straight","peculiar",
+                "strange","perhaps","strength","popular","suppose","position","surprise","possess","therefore",
+                "possession","though","possible","thought","potatoes","through","pressure","various","probably",
+                "weight","promise","woman","purpose","women","quarter","question","recent"
+            ]
+        }
+        {
             "name" : "common",
             "level": 5,
             "words": [
@@ -27,6 +74,20 @@
                 "recommend", "relevant", "restaurant", "rhyme", "rhythm", "sacrifice", "secretary", "shoulder",
                 "signature", "sincere", "sincerely", "soldier", "stomach", "sufficient", "suggest", "symbol",
                 "system", "temperature", "thorough", "twelfth", "variety", "vegetable", "vehicle", "yacht"
+            ]
+        },
+        {
+            "name": "maths",
+            "level": 6,
+            "words": [
+                "circumference",
+                "diameter",
+                "isosceles",
+                "radius",
+                "triangle",
+                "parallel",
+                "acute",
+                "obtuse"
             ]
         },
         {
@@ -62,45 +123,6 @@
             "level": 8,
             "words": [
                 "pivotal", "hostility", "vengeful", "sacrifice", "accord", "harmony", "poignant", "sentimental", "tempestuous", "ritual"
-            ]
-        },
-        {
-            "name": "maths",
-            "level": 6,
-            "words": [
-                "circumference",
-                "diameter",
-                "isosceles",
-                "radius"
-            ]
-        },
-        {
-            "name": "year4",
-            "level": 4,
-            "words": [
-                "blow", "blew", "sing", "sang", "fight", "fought", "teach", "taught", "other", "another", "mother",
-                "before", "more", "or", "different", "difficult"
-            ]
-        },
-        {
-            "name": "common exception words",
-            "level": 1,
-            "words": [
-                "the", "a", "do", "to", "today", "of", "said", "says", "are", "were", "was", "is", "his", "has", "I", "you",
-                "your", "they", "be", "he", "me", "she", "we", "no", "go", "so", "by", "my", "here", "there", "were", "love",
-                "come", "some", "one", "once", "ask", "friend", "school", "put", "push", "pull", "full", "house", "our"
-            ]
-        },
-        {
-            "name": "common exception words",
-            "level": 2,
-            "words": [
-                "door", "floor", "poor", "because", "find", "kind", "mind", "behind", "child", "children", "wild", "climb",
-                "most", "only", "both", "old", "cold", "gold", "hold", "told", "every", "great", "break", "steak", "pretty",
-                "beautiful", "after", "fast", "last", "pass", "father", "class", "grass", "pass", "plant", "path", "bath",
-                "hour", "move", "prove", "improve", "sure", "sugar", "eye", "could", "should", "would", "who", "whole", "any",
-                "many", "clothes", "busy", "people", "water", "again", "half", "money", "Mr.", "Mrs.", "parents",
-                "Christmas", "everybody", "even"
             ]
         }
     ]
