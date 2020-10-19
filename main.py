@@ -13,11 +13,10 @@ def main(list_level=6, list_name="*", tests=10):
     count = 0
     words = get_random_words(list_level, list_name, tests, DIC_PATH)
 
-    os.system('clear')
+    os.system('cls')
 
     for word in words:
         count = count + 1
-        # Download / get MP3 file
         mp3_file = get_mp3(word, MP3_PATH)
 
         pygame.mixer.init()

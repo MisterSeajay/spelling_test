@@ -33,7 +33,7 @@
             "name": "shakespeare1",
             "level": 8,
             "words": [
-                "mutiny", "acient", "rivalry", "reconciliation", "defiance", "quarrelsome", "grievance", "boisterous", "benevolent", "pernicious"
+                "mutiny", "ancient", "rivalry", "reconciliation", "defiance", "quarrelsome", "grievance", "boisterous", "benevolent", "pernicious"
             ]
         },
         {
@@ -80,6 +80,27 @@
             "words": [
                 "blow", "blew", "sing", "sang", "fight", "fought", "teach", "taught", "other", "another", "mother",
                 "before", "more", "or", "different", "difficult"
+            ]
+        },
+        {
+            "name": "common exception words",
+            "level": 1,
+            "words": [
+                "the", "a", "do", "to", "today", "of", "said", "says", "are", "were", "was", "is", "his", "has", "I", "you",
+                "your", "they", "be", "he", "me", "she", "we", "no", "go", "so", "by", "my", "here", "there", "were", "love",
+                "come", "some", "one", "once", "ask", "friend", "school", "put", "push", "pull", "full", "house", "our"
+            ]
+        },
+        {
+            "name": "common exception words",
+            "level": 2,
+            "words": [
+                "door", "floor", "poor", "because", "find", "kind", "mind", "behind", "child", "children", "wild", "climb",
+                "most", "only", "both", "old", "cold", "gold", "hold", "told", "every", "great", "break", "steak", "pretty",
+                "beautiful", "after", "fast", "last", "pass", "father", "class", "grass", "pass", "plant", "path", "bath",
+                "hour", "move", "prove", "improve", "sure", "sugar", "eye", "could", "should", "would", "who", "whole", "any",
+                "many", "clothes", "busy", "people", "water", "again", "half", "money", "Mr.", "Mrs.", "parents",
+                "Christmas", "everybody", "even"
             ]
         }
     ]
