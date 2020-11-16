@@ -69,7 +69,8 @@ def main(user, list_level, list_name, questions):
         attempts = 0
         attempt = ""
         while attempt != word:
-            attempts = attempts + 1
+            if attempt != "?":
+                attempts = attempts + 1
             pygame.mixer.music.play()
             if word in definitions:
                 print("Word %02d, attempt %02d: " % (count, attempts))
