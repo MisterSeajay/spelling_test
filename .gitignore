@@ -1,5 +1,6 @@
-# Ignore binary files
+# Ignore files generated while running spelling_test
 *.mp3
+*.profile
 
 # Ignore ISE files
 .vscode/*
