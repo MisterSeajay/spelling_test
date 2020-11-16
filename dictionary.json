@@ -7,7 +7,13 @@
                 "the", "a", "do", "to", "today", "of", "said", "says", "are", "were", "was", "is", "his", "has", "I", "you",
                 "your", "they", "be", "he", "me", "she", "we", "no", "go", "so", "by", "my", "here", "there", "were", "love",
                 "come", "some", "one", "once", "ask", "friend", "school", "put", "push", "pull", "full", "house", "our"
-            ]
+            ],
+            "definitions": {
+                "by": "Next to",
+                "one": "The number before two",
+                "your": "Belonging to you",
+                "you're": "You are"
+            }
         },
         {
             "name": "exceptions",
@@ -46,7 +52,7 @@
                 "possession","though","possible","thought","potatoes","through","pressure","various","probably",
                 "weight","promise","woman","purpose","women","quarter","question","recent"
             ]
-        }
+        },
         {
             "name" : "common",
             "level": 5,
