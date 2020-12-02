@@ -54,7 +54,8 @@
                 "by": "Next to",
                 "one": "The number before two",
                 "your": "Belonging to you",
-                "you're": "You are"
+                "you're": "You are",
+                "my": "Belonging to me"
             }
         },
         {
@@ -128,7 +129,122 @@
             ]
         },
         {
-            "name": "year4",
+            "name": "week1",
+            "level": 4,
+            "words": [
+                "diner",
+                "dinner",
+                "coma",
+                "comma",
+                "super",
+                "supper",
+                "hoping",
+                "hopping",
+                "fish",
+                "wish",
+                "miss",
+                "much",
+                "much",
+                "stop",
+                "woman",
+                "women"
+            ]
+        },
+        {
+            "name": "week2",
+            "level": 4,
+            "words": [
+                "messed",
+                "kissed",
+                "bossed",
+                "fussed",
+                "batter",
+                "battle",
+                "button",
+                "mutton",
+                "thing",
+                "things",
+                "something",
+                "well",
+                "tell",
+                "fell",
+                "earth",
+                "early"
+            ]
+        },
+        {
+            "name": "week3",
+            "level": 4,
+            "words": [
+                "to",
+                "too",
+                "two",
+                "they're",
+                "their",
+                "there",
+                "piece",
+                "hopping",
+                "fish",
+                "wish",
+                "miss",
+                "much",
+                "much",
+                "stop",
+                "woman",
+                "women"
+            ],
+            "definitions": {
+                "they're": "they are",
+                "their": "belonging to thme",
+                "there": "a place some distance away"
+            }
+        },
+        {
+            "name": "week4",
+            "level": 4,
+            "words": [
+                "cooks",
+                "cooked",
+                "cooking",
+                "jumped",
+                "jumps",
+                "jumping",
+                "worked",
+                "working",
+                "baby",
+                "coat",
+                "think",
+                "under",
+                "before",
+                "away",
+                "heart",
+                "increase"
+            ]
+        },
+        {
+            "name": "week5",
+            "level": 4,
+            "words": [
+                "carries",
+                "carried",
+                "carrying",
+                "cries",
+                "cried",
+                "crying",
+                "touched",
+                "touching",
+                "rabbit",
+                "birds",
+                "duck",
+                "dragon",
+                "gran",
+                "grandad",
+                "breath",
+                "breathe"
+            ]
+        },
+        {
+            "name": "week6",
             "level": 4,
             "words": [
                 "blow",
@@ -147,6 +263,213 @@
                 "or",
                 "different",
                 "difficult"
+            ]
+        },
+        {
+            "name": "week7",
+            "level": 4,
+            "words": [
+                "final",
+                "hospital",
+                "topical",
+                "tropical",
+                "capital",
+                "medical",
+                "personal",
+                "seasonal",
+                "think",
+                "thinkg",
+                "things",
+                "something",
+                "fish",
+                "wish",
+                "pressure",
+                "island"
+            ]
+        },
+        {
+            "name": "week8",
+            "level": 4,
+            "words": [
+                "salary",
+                "stationary",
+                "necessary",
+                "anniversary",
+                "historic",
+                "traffic",
+                "picnic",
+                "tunic",
+                "long",
+                "along",
+                "last",
+                "fast",
+                "best",
+                "next",
+                "believe",
+                "reign"
+            ]
+        },
+        {
+            "name": "week9",
+            "level": 4,
+            "words": [
+                "membership",
+                "partnership",
+                "ownership",
+                "fellowship",
+                "childhood",
+                "fatherhood",
+                "knighthood",
+                "motherhood",
+                "gran",
+                "wind",
+                "king",
+                "must",
+                "wish",
+                "plants",
+                "notice",
+                "sentence"
+            ]
+        },
+        {
+            "name": "week10",
+            "level": 4,
+            "words": [
+                "faireness",
+                "kindness",
+                "tidiness",
+                "silliness",
+                "enjoyment",
+                "movement",
+                "statement",
+                "employment",
+                "well",
+                "tell",
+                "fell",
+                "still",
+                "pulled",
+                "miss",
+                "imagine",
+                "medicine"
+            ]
+        },
+        {
+            "name": "week11",
+            "level": 4,
+            "words": [
+                "notify",
+                "purify",
+                "identify",
+                "clarify",
+                "create",
+                "dictate",
+                "educate",
+                "relate",
+                "duck",
+                "lots",
+                "stop",
+                "eggs",
+                "king",
+                "along",
+                "decide",
+                "describe"
+            ]
+        },
+        {
+            "name": "week12",
+            "level": 4,
+            "words": [
+                "apologise",
+                "standardise",
+                "stupidity",
+                "ability",
+                "lengthen",
+                "deepen",
+                "hardness",
+                "happiness",
+                "dragon",
+                "gran",
+                "must",
+                "best",
+                "fast",
+                "last",
+                "actually",
+                "accidentally"
+            ]
+        },
+        {
+            "name": "snips3",
+            "level": 3,
+            "words": [
+                "me",
+                "am",
+                "dad",
+                "my",
+                "said",
+                "look",
+                "big",
+                "away",
+                "are"
+            ]
+        },
+        {
+            "name": "snips4",
+            "level": 3,
+            "words": [
+                "they",
+                "you",
+                "going",
+                "yes",
+                "all",
+                "she",
+                "day",
+                "about",
+                "after"
+            ]
+        },
+        {
+            "name": "snips5",
+            "level": 3,
+            "words": [
+                "again",
+                "another",
+                "back",
+                "boy",
+                "because",
+                "been",
+                "brother",
+                "by",
+                "call"
+            ]
+        },
+        {
+            "name": "snips6",
+            "level": 3,
+            "words": [
+                "called",
+                "did",
+                "from",
+                "girl",
+                "have",
+                "here",
+                "if",
+                "just",
+                "laugh"
+            ]
+        },
+        {
+            "name": "snips7",
+            "level": 3,
+            "words": [
+                "came",
+                "don't",
+                "down",
+                "half",
+                "house",
+                "last",
+                "live",
+                "many",
+                "next"
             ]
         },
         {
