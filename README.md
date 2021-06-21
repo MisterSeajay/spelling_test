@@ -27,7 +27,17 @@ The following python libraries must be installed:
 If in doubt, these can be installed with **pip**, for example:
 
 ~~~bash
-pip3 install gTTS
+python3 -m pip install gTTS
+~~~
+
+#### requirements.txt
+
+A **requirements.txt** file is provided with this project,
+allowing you to install the latest versions of these
+libraries with a single command:
+
+~~~bash
+python3 -m pip install -r requirements.txt
 ~~~
 
 ### Gotchas
@@ -60,4 +70,10 @@ cd ~
 mkdir Git
 cd Git
 git clone https://github.com/cjj1977/spelling_test.git
+~~~
+
+## Running the spelling test
+
+~~~bash
+python3 .\profile.py
 ~~~
